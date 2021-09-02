@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test_bmc_Regression">
+    <classes>
+      <class name="tests.CorporateBanking_Test"/>
+      <class name="tests.AccountInterestFoundFormation_Test"/>
+      <class name="tests.ATMs_Test"/>
+      <class name="tests.InterestRates_Test"/>
+      <class name="tests.AccountInterestSightSavings_Test"/>
+      <class name="tests.SecurityMeasures_Test"/>
+      <class name="tests.BankFees_Test"/>
+      <class name="tests.Home_Test"/>
+      <class name="tests.CreditsInterest_DataProvider"/>
+      <class name="tests.Bonus_Test"/>
+      <class name="tests.ConsumerBanking_Test"/>
+      <class name="tests.CashExchangeRate_Test"/>
+      <class name="tests.BancaMobile_Test"/>
+      <class name="tests.BanksBranches_Test"/>
+    </classes>
+  </test> <!-- Test_BanMet_Regression -->
+</suite> <!-- Suite -->
